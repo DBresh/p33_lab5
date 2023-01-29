@@ -1,0 +1,23 @@
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+#example {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+.anim{
+    width: 1366px;
+    height: 720px;
+}
+
+.font{
+    font-size: 25px;
+}
